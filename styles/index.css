@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@700&family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(0, 0%, 8%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    text-align: center;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.name {
+    font-size: 1.8rem;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.profesional {
+    font-size: 14px;
+    text-align: left;
+}
+
+figure {
+    width: 150px;
+}
+
+figure img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    padding: 10px;
+}
+
+.link {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.link:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    transition: ease-in-out .40s;
+}
